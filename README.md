@@ -40,13 +40,15 @@ nodejs -v
 npm -v
 ```
 ## Install Jest, Babel, and ESLint in your project directory:
+```
 npm install --save-dev jest
 npm install --save-dev babel-jest @babel/core @babel/preset-env
 npm install --save-dev eslint
-
+```
 ## Configuration files
 
 ### package.json
+```
 {
   "scripts": {
     "test": "jest"
@@ -59,8 +61,9 @@ npm install --save-dev eslint
     "jest": "^27.0.6"
   }
 }
-
+```
 ### babel.config.js
+```
 module.exports = {
   presets: [
     [
@@ -73,9 +76,9 @@ module.exports = {
     ],
   ],
 };
-
+```
 ## .eslintrc.js
-
+```
 module.exports = {
   extends: [
     'eslint:recommended',
@@ -97,7 +100,7 @@ module.exports = {
     // Add specific ESLint rules if needed
   }
 };
-
+```
 ### Finally...
 
 Don’t forget to run npm install from the terminal of your project folder to install all necessary project dependencies.
