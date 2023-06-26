@@ -1,0 +1,11 @@
+{
+  "name": "alx-frontend-javascript",
+  "version": "1.0.0",
+  "description": "This repository contains frontend JavaScript projects developed as part of the ALX Software Engineering program.",
+  "main": "babel.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
